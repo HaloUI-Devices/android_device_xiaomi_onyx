@@ -6,12 +6,6 @@
     "branch": "seventeen"
   },
   {
-    "repository": "android_hardware_qcom_audio-ar",
-    "target_path": "hardware/qcom-caf/sm8750/audio/primary-hal",
-    "remote": "haloui",
-    "branch": "seventeen"
-  },
-  {
     "repository": "android_kernel_xiaomi_sm8735",
     "target_path": "kernel/xiaomi/sm8735",
     "remote": "haloui-devices",
@@ -27,18 +21,6 @@
     "repository": "android_kernel_xiaomi_sm8735-modules",
     "target_path": "kernel/xiaomi/sm8735-modules",
     "remote": "haloui-devices",
-    "branch": "seventeen"
-  },
-  {
-    "repository": "android_vendor_qcom_opensource_arpal-lx",
-    "target_path": "hardware/qcom-caf/sm8750/audio/pal",
-    "remote": "haloui",
-    "branch": "seventeen"
-  },
-  {
-    "repository": "android_vendor_qcom_opensource_audio",
-    "target_path": "vendor/qcom/opensource/commonsys/audio",
-    "remote": "haloui",
     "branch": "seventeen"
   },
   {
