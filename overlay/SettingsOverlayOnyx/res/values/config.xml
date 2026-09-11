@@ -55,4 +55,7 @@
 
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar">90</integer>
+
+    <!-- SoC name -->
+    <string name="processor_prettyname">Snapdragon 8s Gen 4</string>
 </resources>
