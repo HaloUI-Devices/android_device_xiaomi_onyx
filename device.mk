@@ -290,6 +290,10 @@ PRODUCT_COPY_FILES += \
 # Kernel
 PRODUCT_ENABLE_UFFD_GC := true
 
+# KProfiles
+PRODUCT_PACKAGES += \
+    KProfiles
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.onyx
