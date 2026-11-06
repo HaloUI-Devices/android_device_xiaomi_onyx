@@ -144,6 +144,8 @@ PRODUCT_VENDOR_PROPERTIES += \
     dalvik.vm.usap_pool_size_max=5
 
 # Display
+$(call soong_config_set,vendor_haloui,bootanimation_res,1440)
+
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     init.qti.display_boot.rc \
@@ -156,7 +158,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer3-V3-ndk.vendor \
     vendor.qti.hardware.display.aiqe-V2-ndk.vendor  \
     vendor.qti.hardware.display.config-V12-ndk.vendor  \
-    vendor.qti.hardware.display.composer3-V1-ndk.vendor 
+    vendor.qti.hardware.display.composer3-V1-ndk.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
